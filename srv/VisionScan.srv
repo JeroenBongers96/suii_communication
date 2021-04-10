@@ -1,0 +1,4 @@
+bool publish_objects
+bool publish_table
+---
+int8[] detected_objects
