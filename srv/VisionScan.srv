@@ -1,4 +1,5 @@
-bool publish_objects
-bool publish_table
+bool debug
+bool create_data
+bool save_data
 ---
 int8[] detected_objects
