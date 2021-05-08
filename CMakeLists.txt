@@ -33,10 +33,12 @@ if(BUILD_TESTING)
 endif()
 
 find_package(rosidl_default_generators REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddThreeInts.srv"
   "srv/VisionScan.srv"
+  "srv/YoloService.srv"
  )
 
 ament_package()
