@@ -38,8 +38,9 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddThreeInts.srv"
   "srv/VisionScan.srv"
-  #"srv/YoloService.srv"
-  srv/AddTwoInts.srv
+  "srv/YoloService.srv"
+  "srv/AddTwoInts.srv"
+  DEPENDENCIES sensor_msgs
  )
 
 ament_package()
