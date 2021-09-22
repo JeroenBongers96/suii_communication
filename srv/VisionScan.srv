@@ -2,4 +2,4 @@ bool debug
 bool create_data
 bool save_data
 ---
-int8[] detected_objects
+string[20] detected_objects
